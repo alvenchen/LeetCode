@@ -17,6 +17,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "InsertionSortList", "Insert
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LRUCache", "LRUCache\LRUCache.vcproj", "{610DE1EB-33E8-4CB8-A581-5A03D52E4809}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Word Ladder", "Word Ladder\Word Ladder.vcproj", "{FE447BF1-7882-4733-89A1-6E679147A598}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Binary Tree Postorder Traversal", "BinaryTreePostorderTraversal\BinaryTreePostorderTraversal.vcproj", "{0E65A340-949D-4859-BC07-AAB29EA444D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -55,6 +59,14 @@ Global
 		{610DE1EB-33E8-4CB8-A581-5A03D52E4809}.Debug|Win32.Build.0 = Debug|Win32
 		{610DE1EB-33E8-4CB8-A581-5A03D52E4809}.Release|Win32.ActiveCfg = Release|Win32
 		{610DE1EB-33E8-4CB8-A581-5A03D52E4809}.Release|Win32.Build.0 = Release|Win32
+		{FE447BF1-7882-4733-89A1-6E679147A598}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FE447BF1-7882-4733-89A1-6E679147A598}.Debug|Win32.Build.0 = Debug|Win32
+		{FE447BF1-7882-4733-89A1-6E679147A598}.Release|Win32.ActiveCfg = Release|Win32
+		{FE447BF1-7882-4733-89A1-6E679147A598}.Release|Win32.Build.0 = Release|Win32
+		{0E65A340-949D-4859-BC07-AAB29EA444D3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0E65A340-949D-4859-BC07-AAB29EA444D3}.Debug|Win32.Build.0 = Debug|Win32
+		{0E65A340-949D-4859-BC07-AAB29EA444D3}.Release|Win32.ActiveCfg = Release|Win32
+		{0E65A340-949D-4859-BC07-AAB29EA444D3}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

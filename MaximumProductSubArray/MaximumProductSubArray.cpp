@@ -1,6 +1,6 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
+#include<stdio.h>
+#include <vector>
+
 
 int maxProduct(int A[], int n)
 {
@@ -120,7 +120,7 @@ int maxProduct(int A[], int n)
 		num = 1;
 	}
 
-	//printf("Max %d  pos %d  num %d\n", Max, pos, num);
+	printf("Max %d  pos %d  num %d\n", Max, pos, num);
 	delete []assist;
 
 	return Max;
@@ -128,9 +128,9 @@ int maxProduct(int A[], int n)
 
 int main()
 {
-	int A[] = {-2};
+	int arrey[] = {-2};
 
-	maxProduct(A, sizeof(A)/sizeof(int));
+	maxProduct(arrey, sizeof(arrey) / sizeof(int));
 
 	system("pause");
 

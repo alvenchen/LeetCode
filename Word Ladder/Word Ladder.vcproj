@@ -2,9 +2,9 @@
 <VisualStudioProject
 	ProjectType="Visual C++"
 	Version="8.00"
-	Name="MaximumProductSubarray"
-	ProjectGUID="{D82C1C4D-4971-4A89-94A0-ABBEDC8209BB}"
-	RootNamespace="LeetCode"
+	Name="Word Ladder"
+	ProjectGUID="{FE447BF1-7882-4733-89A1-6E679147A598}"
+	RootNamespace="WordLadder"
 	Keyword="Win32Proj"
 	>
 	<Platforms>
@@ -175,7 +175,7 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
-				RelativePath=".\MaximumProductSubarray.cpp"
+				RelativePath=".\Word Ladder.cpp"
 				>
 			</File>
 		</Filter>
