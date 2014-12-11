@@ -22,6 +22,8 @@ All words contain only lowercase alphabetic characters.
 
 */
 
+//start and end is in the dict
+
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -183,7 +185,17 @@ int main()
 	unordered_set<string> dict;
 	string start, end;
 
-	Create(dict, 20, 2, start, end);
+	start = "hit";
+	end = "cog";
+	dict.insert("hot");
+	dict.insert("dot");
+	dict.insert("dog");
+	dict.insert("lot");
+	dict.insert("log");
+	dict.insert("cog");
+
+
+	//Create(dict, 20, 2, start, end);
 	Print(dict);
 	printf("start %s   end %s\n", start.c_str(), end.c_str());
 
