@@ -15,7 +15,6 @@ For example:
 #include <Windows.h>
 #include <iostream>
 #include <string>
-#include <stack>
 
 using namespace std;
 
@@ -42,7 +41,7 @@ int main()
 
 	Solution solution;
 	int r = rand();
-	cout << r << ":" << solution.convertToTitle(rand());
+	cout << r << ":" << solution.convertToTitle(r);
 
 	system("pause");
 
